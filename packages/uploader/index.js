@@ -11,7 +11,7 @@ export default sfc({
     afterRead: Function,
     accept: {
       type: String,
-      default: 'image/*'
+      default: ''
     },
     resultType: {
       type: String,
